@@ -36,7 +36,7 @@
       padding: 3px;
       border-radius: 10px 0 0 0;
       margin-right: 2px;
-      color: yellowgreen;
+      color: $secondary_color;
     }
 
     &-input {
@@ -87,7 +87,7 @@
       font-size: 0.9rem;
       text-align: center;
       border-radius: 25px;
-      background-color: yellowgreen;
+      background-color: $secondary_color;
       color: $white_color;
     }
   }
