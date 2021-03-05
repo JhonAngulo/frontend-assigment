@@ -1,0 +1,114 @@
+.header {
+  height: 70px;
+  background-color: $primary_color;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: flex-end;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  &__hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+  }
+
+  &__logo {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    color: $white_color;
+    font-size: 1.8rem;
+  }
+
+  &__search {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 30px;
+
+    &-icon {
+      height: 30px;
+      width: 30px;
+      background-color: $white_color;
+      padding: 3px;
+      border-radius: 10px 0 0 0;
+      margin-right: 2px;
+      color: yellowgreen;
+    }
+
+    &-input {
+      height: 30px;
+      padding-left: 6px;
+      border-radius: 0 0 10px 0;
+      color: $secondary_text;
+      outline: none;
+      border: none;
+    }
+  }
+
+  &__dropdown {
+    display: flex;
+    color: $white_color;
+    align-items: center;
+
+    &-icon {
+      height: 30px;
+      width: 30px;
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+  }
+
+  &__settings {
+    height: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    border-left: 1px solid $white_color;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+
+    &-icon {
+      color: $white_color;
+      width: 30px;
+      height: 30px;
+    }
+
+    &-badge {
+      position: absolute;
+      top: 4px;
+      left: 38px;
+      width: 16px;
+      height: 16px;
+      font-size: 0.9rem;
+      text-align: center;
+      border-radius: 25px;
+      background-color: yellowgreen;
+      color: $white_color;
+    }
+  }
+
+  &__user-info {
+    color: $white_color;
+    display: flex;
+    align-items: center;
+
+    &-image {
+      border: 3px solid $white_color;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+    }
+
+    &-icon {
+      height: 30px;
+      width: 30px;
+      // margin-left: 4px;
+      // margin-right: 4px;
+    }
+  }
+}

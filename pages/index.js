@@ -1,7 +1,8 @@
 const App = () => (
-  <div className="container">
-    <h1>Hola Mundo</h1>
+  <div className='home__container'>
+    <div>Noticia</div>
+    <div>Noticias relacionadas</div>
   </div>
-);
+)
 
-export default App;
+export default App
