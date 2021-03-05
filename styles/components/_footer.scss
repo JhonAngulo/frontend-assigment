@@ -1,0 +1,26 @@
+.footer {
+  height: 70px;
+  background-color: $primary_color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__logo {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    color: $white_color;
+    font-size: 1.8rem;
+  }
+
+  &__link {
+    color: $white_color;
+    text-decoration: none;
+  }
+
+  &__copyright {
+    color: #9ec6e5;
+  }
+}
