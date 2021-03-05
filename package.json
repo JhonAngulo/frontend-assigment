@@ -1,0 +1,32 @@
+{
+  "name": "frontend-assigment",
+  "version": "1.0.0",
+  "description": "Technical Test",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonAngulo/frontend-assigment.git"
+  },
+  "keywords": [
+    "Next.js",
+    "Sass",
+    "Dockers"
+  ],
+  "author": "Jhon Manuel Angulo Moncada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhonAngulo/frontend-assigment/issues"
+  },
+  "homepage": "https://github.com/JhonAngulo/frontend-assigment#readme",
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.8"
+  }
+}
