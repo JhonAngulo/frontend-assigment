@@ -41,4 +41,4 @@ Se debe agregar al final de este README las instrucciones sobre cómo correr el 
 ## Instrucciones para ejecutar el proyecto
 
 1. ejecutar el comando docker-compose up -d
-2. ingresar desde el navegador a la [url](http://localhost:3000/)
+2. ingresar desde el navegador a la url [http://localhost:3000/](http://localhost:3000/)
