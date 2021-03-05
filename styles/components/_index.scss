@@ -8,5 +8,9 @@
     justify-items: start;
     padding: 5rem 2.5rem;
     gap: 20px;
+
+    @include lg {
+      display: inline;
+    }
   }
 }

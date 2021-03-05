@@ -50,7 +50,9 @@ const Header = () => (
         <BiChevronDown className='header__user-info-icon' />
       </div>
 
-      <BiCog className='header__settings-icon' />
+      <div>
+        <BiCog className='header__settings-icon' />
+      </div>
     </div>
   </div>
 )

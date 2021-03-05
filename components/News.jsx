@@ -2,7 +2,6 @@ import Tag from './Tag'
 import article from "../mockup/article.json"
 
 const News = () => {
-  console.log(article)
 
   return (
     <div className='news'>

@@ -1,7 +1,12 @@
 .newsrelatedcard {
   &__container {
     width: 100%;
+    padding-top: 20px;
 
+    @include md {
+      padding: 20px;
+    }
+  
     & > div {
       display: flex;
       margin-bottom: 10px;
@@ -27,6 +32,10 @@
   display: flex;
   margin-bottom: 2px;
   align-items: center;
+
+  @include lg {
+    justify-content: center;
+  }
 
   &__image {
     border-radius: 8px;
